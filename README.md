@@ -2,7 +2,7 @@
 
 <h3 align="center">A passionate frontend developer from Poland</h3>
 
-- 🔭 I’m currently working on [Electric Car Cost](https://github.com/00200200/ElectricCarCost)
+- 🔭 I’m currently working on [Electric Car Cost](https://github.com/00200200/OddamWDobreRece)
 
 - 🌱 I’m currently learning **CODERSLAB JAVASCRIPT COURSE**
 
