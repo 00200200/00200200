@@ -2,9 +2,9 @@
 
 <h3 align="center">A passionate frontend developer from Poland</h3>
 
-- 🔭 I’m currently working on [Oddam w dobre ręcę](https://github.com/00200200/OddamWDobreRece)
+- 🔭 I’m currently working on --- 
 
-- 🌱 I’m currently learning **CODERSLAB JAVASCRIPT COURSE**
+- 🌱 I’m currently learning React/NODE.JS
 
 - 👨‍💻 All of my projects are available at [https://github.com/00200200?tab=repositories](https://github.com/00200200?tab=repositories)
 
