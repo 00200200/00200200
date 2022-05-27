@@ -12,7 +12,7 @@
 
 - 📫 How to reach me **mchfrg@gmail.com**
 
-- ⚡ Fun fact **I am a student of a printing technical college, my passion is programming, in my spare time I like to go to crossfit training**
+- ⚡ Fun fact **I am a former student of a printing technical college,in 2022 I will be studying computer science, my passion is programming.**
 
 
 
