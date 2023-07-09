@@ -1,6 +1,5 @@
 <h1 align="center">Hi 👋, I'm Michał</h1>
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=00200200&label=Profile%20views&color=0e75b6&style=flat" alt="00200200" /> </p>
 
 - 🔭 I’m currently working on [portfolio](https://github.com/00200200/portfolio)
 
