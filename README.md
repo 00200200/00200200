@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Michał</h1>
 
 
-- 🔭 I’m currently working on [portfolio](https://github.com/00200200/portfolio)
+- 🔭 I’m currently working on [portfolio](https://github.com/00200200/portfolio)  [live view](https://00200200.netlify.app/)
 
 - 🌱 I’m currently learning **TypeScript,React,Node.JS**
 
