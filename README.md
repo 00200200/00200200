@@ -3,7 +3,7 @@
 
 - 🔭 I’m currently working on [portfolio](https://github.com/00200200/portfolio)  [live view](https://00200200.netlify.app/)
 
-- 🌱 I’m currently learning **TypeScript,React,Node.JS**
+- 🌱 I’m currently learning **JAVA,SPRING**
 
 - 👨‍💻 All of my projects are available at [https://github.com/00200200?tab=repositories](https://github.com/00200200?tab=repositories)
 
