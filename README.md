@@ -3,7 +3,7 @@
 
 - 🔭 I’m currently working on 
 
-- 🌱 I’m currently learning **JAVA**
+- 🌱 I’m currently learning ****
 
 - 👨‍💻 All of my projects are available at [https://github.com/00200200?tab=repositories](https://github.com/00200200?tab=repositories)
 
