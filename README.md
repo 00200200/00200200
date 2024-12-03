@@ -64,3 +64,32 @@
 
 <img src="https://raw.githubusercontent.com/00200200/00200200/output/snake.svg" alt="Snake animation" />
 
+<h1 align="center">Selected Projects</h1>
+
+### **SQL**
+- [Bank Database Management](https://github.com/00200200/BankDataBase)  
+  *A relational database for managing banking operations and client data.*  
+- [Gas Station System](https://github.com/00200200/StacjaPaliw)  
+  *A database system for managing a gas station's operations and inventory.*
+
+### **Web Development**
+- [Job Agency Website](https://ewc.netlify.app/)  
+  *A job agency platform with a React front-end, TailwindCSS, and integrated Django back-end with PostgreSQL database integration and Docker.*
+- [Psychotherapy Website](https://www.psychoterapia-aldona.pl/)  
+  *An integrative psychotherapy website designed with React and TailwindCSS.* 
+- [Front-End Portfolio Website](https://00200200.netlify.app/)  
+  *A personal front-end portfolio website built with React, TypeScript and TailwindCSS.*  
+- [Furniture Garden Design Website](https://glarddesign.netlify.app/)  
+  *A furniture garden design website built using HTML, JavaScript and TailwindCSS.*
+
+
+### **Algorithms and Optimization**
+- [Dynamic Programming, Branch and Bound, and Heuristic Algorithms for TSP](https://github.com/00200200/PEA)  
+  *Includes implementations of Dynamic Programming, Branch and Bound, Brute Force, Tabu Search, Local Search, Ant Colony Optimization, Genetic Algorithm and Simulated Annealing for solving the Travelling Salesman Problem (TSP).*
+
+### **Machine Learning**
+- [ML Course Solutions](https://github.com/00200200/ML_COURSE)  
+  *Covers key machine learning algorithms such as Linear Regression, SVM, Logistic Regression, Decision Trees, and more.*
+### **Others**
+- [Advent of Code](https://github.com/00200200/AdventOfCode)  
+  *My Solutions to the Advent of Code Challenge*
