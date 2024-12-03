@@ -50,19 +50,7 @@
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" height="30" alt="Linux" />
 </div>
-<h1 align="center">Contact Me</h1>
-<div align="center">
-  <a href="mailto:mchfrg@gmail.com" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&label=&color=D14836&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="Gmail" />
-  </a>
-  <a href="https://www.linkedin.com/in/micha%C5%82-furga%C5%82a/" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="LinkedIn" />
-  </a>
-</div>
 
-<br clear="both">
-
-<img src="https://raw.githubusercontent.com/00200200/00200200/output/snake.svg" alt="Snake animation" />
 
 <h1 align="center">Selected Projects</h1>
 
@@ -93,3 +81,18 @@
 ### **Others**
 - [Advent of Code](https://github.com/00200200/AdventOfCode)  
   *My Solutions to the Advent of Code Challenge*
+
+
+<h1 align="center">Contact Me</h1>
+<div align="center">
+  <a href="mailto:mchfrg@gmail.com" target="_blank">
+    <img src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&label=&color=D14836&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="Gmail" />
+  </a>
+  <a href="https://www.linkedin.com/in/micha%C5%82-furga%C5%82a/" target="_blank">
+    <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="LinkedIn" />
+  </a>
+</div>
+
+<br clear="both">
+
+<img src="https://raw.githubusercontent.com/00200200/00200200/output/snake.svg" alt="Snake animation" />
