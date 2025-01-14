@@ -65,6 +65,8 @@
 ### **Others**
 - [Advent of Code](https://github.com/00200200/AdventOfCode)  
   *My Solutions to the Advent of Code Challenge*
+- [Cipher](https://github.com/00200200/Cipher)  
+  *A Python-based project implementing Caesar cipher encryption (ROT13 and ROT47) with features such as file handling, buffer management, and a menu-driven interface. Utilized JSON for data handling, conventional commits, pytest for testing, pre-commit, the Facade design pattern, and docstrings.*
 
 
 <h1 align="center">Contact Me</h1>
