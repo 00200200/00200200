@@ -45,7 +45,7 @@
   *A database system for managing a gas station's operations and inventory.*
 
 ### **Web Development**
-- [Job Agency Website](https://ewc.netlify.app/)  
+- [Job Agency Website](https://ewc.com.pl/)  
   *A job agency platform with a React front-end, TailwindCSS, and integrated Django back-end with PostgreSQL database integration and Docker.*
 - [Psychotherapy Website](https://www.psychoterapia-aldona.pl/)  
   *An integrative psychotherapy website designed with React and TailwindCSS.* 
