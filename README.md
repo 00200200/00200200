@@ -49,13 +49,6 @@
   *A job agency platform with a React front-end, TailwindCSS, and integrated Django back-end with PostgreSQL database integration and Docker.*
 - [Psychotherapy Website](https://www.psychoterapia-aldona.pl/)  
   *An integrative psychotherapy website designed with React and TailwindCSS.* 
-- [Front-End Portfolio Website](https://00200200.netlify.app/)  
-  *A personal front-end portfolio website built with React, TypeScript and TailwindCSS.*  
-- [Furniture Garden Design Website](https://glarddesign.netlify.app/)  
-  *A furniture garden design website built using HTML, JavaScript and TailwindCSS.*
-- [quiz App](https://github.com/00200200/testownikapp)  
-  *A quizApp  website built using, JavaScript and Django.*
-
 
 ### **Algorithms and Optimization**
 - [Dynamic Programming, Branch and Bound, and Heuristic Algorithms for TSP](https://github.com/00200200/PEA)  
