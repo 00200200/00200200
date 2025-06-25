@@ -38,31 +38,6 @@
 
 <h1 align="center">Selected Projects</h1>
 
-### **SQL**
-- [Bank Database Management](https://github.com/00200200/BankDataBase)  
-  *A relational database for managing banking operations and client data.*  
-- [Gas Station System](https://github.com/00200200/StacjaPaliw)  
-  *A database system for managing a gas station's operations and inventory.*
-
-### **Web Development**
-- [Job Agency Website](https://ewc.com.pl/)  
-  *A job agency platform with a React front-end, TailwindCSS, and integrated Django back-end with PostgreSQL database integration and Docker.*
-- [Psychotherapy Website](https://www.psychoterapia-aldona.pl/)  
-  *An integrative psychotherapy website designed with React and TailwindCSS.* 
-
-### **Algorithms and Optimization**
-- [Dynamic Programming, Branch and Bound, and Heuristic Algorithms for TSP](https://github.com/00200200/PEA)  
-  *Includes implementations of Dynamic Programming, Branch and Bound, Brute Force, Tabu Search, Local Search, Ant Colony Optimization, Genetic Algorithm and Simulated Annealing for solving the Travelling Salesman Problem (TSP).*
-
-### **Machine Learning**
-- [ML Course Solutions](https://github.com/00200200/ML_COURSE)  
-  *Covers key machine learning algorithms such as Linear Regression, SVM, Logistic Regression, Decision Trees, and more.*
-### **Others**
-- [Advent of Code](https://github.com/00200200/AdventOfCode)  
-  *My Solutions to the Advent of Code Challenge*
-- [Cipher](https://github.com/00200200/Cipher)  
-  *A Python-based project implementing Caesar cipher encryption (ROT13 and ROT47) with features such as file handling, buffer management, and a menu-driven interface. Utilized JSON for data handling, conventional commits, pytest for testing, pre-commit, the Facade design pattern, and docstrings.*
-
 
 <h1 align="center">Contact Me</h1>
 <div align="center">
