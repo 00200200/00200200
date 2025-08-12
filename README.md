@@ -123,7 +123,7 @@
 ###  🎨 [GANs from Scratch](https://github.com/00200200/gan-architectures-from-scratch-pytorch)
 
 <div align="center">
-<img src="https://github.com/00200200/gan-architectures-from-scratch-pytorch/raw/main/results/dcgan/epoch_90.png" alt="DCGAN Results" width="400"/>
+<img src="https://github.com/00200200/gan-architectures-from-scratch-pytorch/raw/main/results/dcgan/epoch_90.png" alt="DCGAN Results" width="400" height="300"/>
 </div>
 
 > _Three GAN architectures implemented following original papers_
@@ -197,7 +197,7 @@
 ### 📝 [T5 Text Summarizer](https://github.com/00200200/t5-text-summarization-cnn-dailymail)
 
 <div align="center">
-<img src="https://github.com/00200200/t5-text-summarization-cnn-dailymail/raw/main/docs/app_gui.png" alt="Summarizer GUI" width="400"/>
+<img src="https://github.com/00200200/t5-text-summarization-cnn-dailymail/raw/main/docs/app_gui.png" alt="Summarizer GUI" width="400" height="800" />
 </div>
 
 > _Advanced text summarization with T5 transformer_
@@ -217,7 +217,7 @@
   ### 🎭 [Emotube: AI Sentiment Analyzer](https://github.com/00200200/youtube-comment-sentiment-analyzer)
 
 <div align="center">
-<img src="https://github.com/00200200/youtube-comment-sentiment-analyzer/raw/main/readme_photos/ui_home.png" alt="Emotube Interface" width="400"/>
+<img src="https://github.com/00200200/youtube-comment-sentiment-analyzer/raw/main/readme_photos/ui_home.png" alt="Emotube Interface" width="400" height="150"/>
 </div>
 
 > _Advanced sentiment analysis platform powered by transformer models_
