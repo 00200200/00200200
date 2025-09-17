@@ -50,6 +50,10 @@
 ### 🤖 **ML & AI**
 
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+![Ollama](https://img.shields.io/badge/Ollama-1f6feb?style=for-the-badge&logoColor=white)
+![RAG](https://img.shields.io/badge/RAG-10B981?style=for-the-badge&logoColor=white)
+![VectorDB](<https://img.shields.io/badge/VectorDB-8B5CF6?style=for-the-badge&logoColor=white>)
+![Reranker](https://img.shields.io/badge/Reranker-22D3EE?style=for-the-badge&logoColor=black)
 ![Lightning](https://img.shields.io/badge/Lightning-792EE5?style=for-the-badge&logo=lightning&logoColor=white)
 ![Hydra](https://img.shields.io/badge/Hydra-89D5FF?style=for-the-badge&logoColor=black)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
@@ -95,6 +99,33 @@
 
 
 <table>
+<tr>
+<td width="50%" valign="top">
+  
+### 🐱 [Ollama RAG + Reranker (CLI)](https://github.com/00200200/ollama-rag-reranker)
+
+<div align="center">
+<img src="https://raw.githubusercontent.com/00200200/ollama-rag-reranker/refs/heads/master/assets/cli.png" alt="RAG CLI" width="400"/>
+</div>
+
+> _Local RAG pipeline using Ollama, VectorDB, and reranking_
+
+**🚀 Tech Stack:** `Ollama` `RAG` `VectorDB` `Reranker` `UV`
+
+**✨ Highlights:**
+
+- 🔎 vector search with optional reranking (FlagEmbedding)
+- 💬 Interactive CLI with modes: none | rerank | both
+- ⚙️ Local models with Ollama
+
+</td>
+<td width="50%" valign="top">
+
+</td>
+</tr>
+
+
+  
 <tr>
 <td width="50%" valign="top">
 
