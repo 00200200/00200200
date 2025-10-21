@@ -37,63 +37,6 @@
 
 
 
----
-
-## 🛠️ Tech Arsenal
-
-<div align="center">
-
-### 🐍 **Programming**
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-
-### 🤖 **ML & AI**
-
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-![Ollama](https://img.shields.io/badge/Ollama-1f6feb?style=for-the-badge&logoColor=white)
-![RAG](https://img.shields.io/badge/RAG-10B981?style=for-the-badge&logoColor=white)
-![VectorDB](<https://img.shields.io/badge/VectorDB-8B5CF6?style=for-the-badge&logoColor=white>)
-![Reranker](https://img.shields.io/badge/Reranker-22D3EE?style=for-the-badge&logoColor=black)
-![Lightning](https://img.shields.io/badge/Lightning-792EE5?style=for-the-badge&logo=lightning&logoColor=white)
-![Hydra](https://img.shields.io/badge/Hydra-89D5FF?style=for-the-badge&logoColor=black)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
-![HuggingFace](https://img.shields.io/badge/🤗_HuggingFace-FFD21E?style=for-the-badge&logoColor=black)
-![Transformers](https://img.shields.io/badge/🤗_Transformers-FFD21E?style=for-the-badge&logoColor=black)
-![OpenCV](https://img.shields.io/badge/OpenCV-27338e?style=for-the-badge&logo=OpenCV&logoColor=white)
-![Scikit Learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
-![TorchVision](https://img.shields.io/badge/TorchVision-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-
-### 📊 **Data Science**
-
-![Seaborn](https://img.shields.io/badge/Seaborn-3776AB?style=for-the-badge&logoColor=white)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-11557c?style=for-the-badge&logoColor=white)
-![GloVe](https://img.shields.io/badge/GloVe-8FBC8F?style=for-the-badge&logoColor=white)
-![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
-![Data Analysis](https://img.shields.io/badge/Data_Analysis-4CAF50?style=for-the-badge&logoColor=white)
-
-### 🔧 **Development Tools**
-
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![Poetry](https://img.shields.io/badge/Poetry-60A5FA?style=for-the-badge&logo=poetry&logoColor=white)
-![Pre-commit](https://img.shields.io/badge/Pre--commit-FAB040?style=for-the-badge&logo=pre-commit&logoColor=black)
-![UV](https://img.shields.io/badge/UV-FF6B35?style=for-the-badge&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-
-### 💻 **Operating Systems**
-
-![macOS](https://img.shields.io/badge/macOS-000000?style=for-the-badge&logo=apple&logoColor=white)
-![Windows](https://img.shields.io/badge/Windows-0078D4?style=for-the-badge&logo=windows&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-
-### 🌐 **Languages**
-
-![Polish](https://img.shields.io/badge/Polish-Native-DC143C?style=for-the-badge&logoColor=white)
-![English](https://img.shields.io/badge/English-C1-1E90FF?style=for-the-badge&logoColor=white)
-
-</div>
-
----
 
 ## 🎯 Featured Projects
 
