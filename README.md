@@ -1,12 +1,3 @@
-<div align="center">
-
-# 👨‍💻 **Michał Furgała**
-
-<div align="center">
-  <a href="https://github.com/00200200">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=24&duration=3000&pause=1000&color=6366F1&center=true&vCenter=true&width=600&height=80&lines=AI+%26+Machine+Learning+Engineer;Computer+Vision+%26+Deep+Learning;PyTorch+%26+AI+Development;" alt="Typing Animation" />
-  </a>
-</div>
 
 <div align="center">
   
@@ -28,24 +19,16 @@
 
 ---
 
-## 🚀 About Me
-
-<img align="right" alt="Coding GIF" width="280" src="https://user-images.githubusercontent.com/74038190/225813708-98b745f2-7d22-48cf-9150-083f1b00d6c9.gif">
-
-🎓 **Computer Engineering Student** (2022-Present) at **Wrocław University of Science and Technology**  
-🌍 **Location:** Wrocław, Poland  
 
 
-
-
-## 🎯 Featured Projects
+## Featured Projects
 
 
 <table>
 <tr>
 <td width="50%" valign="top">
   
-### 🐱 [Ollama RAG + Reranker (CLI)](https://github.com/00200200/ollama-rag-reranker)
+### [Ollama RAG + Reranker (CLI)](https://github.com/00200200/ollama-rag-reranker)
 
 <div align="center">
 <img src="https://raw.githubusercontent.com/00200200/ollama-rag-reranker/refs/heads/master/assets/cli.png" alt="RAG CLI" width="400"/>
@@ -53,13 +36,13 @@
 
 > _Local RAG pipeline using Ollama, VectorDB, and reranking_
 
-**🚀 Tech Stack:** `Ollama` `RAG` `VectorDB` `Reranker` `UV`
+**Tech Stack:** `Ollama` `RAG` `VectorDB` `Reranker` `UV`
 
-**✨ Highlights:**
+**Highlights:**
 
-- 🔎 vector search with optional reranking (FlagEmbedding)
-- 💬 Interactive CLI with modes: none | rerank | both
-- ⚙️ Local models with Ollama
+- vector search with optional reranking (FlagEmbedding)
+- Interactive CLI with modes: none | rerank | both
+- Local models with Ollama
 
 </td>
 <td width="50%" valign="top">
@@ -74,7 +57,7 @@
 
 
 
-### 🧩 [Sudoku Solver with Computer Vision](https://github.com/00200200/sudoku-solver-computer-vision-cnn)
+### [Sudoku Solver with Computer Vision](https://github.com/00200200/sudoku-solver-computer-vision-cnn)
 
 <div align="center">
 <img src="https://github.com/00200200/sudoku-solver-computer-vision-cnn/raw/main/results/pipeline_outputs/20250605_113638_original.jpg" alt="Sudoku Pipeline" width="400"/>
@@ -82,19 +65,19 @@
 
 > _End-to-end computer vision pipeline for real-time solving_
 
-**🚀 Tech Stack:** `PyTorch` `OpenCV` `CNN` `Image Processing`
+**Tech Stack:** `PyTorch` `OpenCV` `CNN` `Image Processing`
 
-**✨ Highlights:**
+**Highlights:**
 
-- 🎯 End-to-end pipeline solving Sudoku puzzles with **95.68% accuracy**
-- 🧠 Lightweight CNN for digit recognition and grid detection
-- 👁️ Computer vision techniques for image preprocessing
+- End-to-end pipeline solving Sudoku puzzles
+- Lightweight CNN for digit recognition and grid detection
+- Computer vision techniques for image preprocessing
 
 
 </td>
 <td width="50%" valign="top">
   
-###  🎨 [GANs from Scratch](https://github.com/00200200/gan-architectures-from-scratch-pytorch)
+### [GANs from Scratch](https://github.com/00200200/gan-architectures-from-scratch-pytorch)
 
 <div align="center">
 <img src="https://github.com/00200200/gan-architectures-from-scratch-pytorch/raw/main/results/dcgan/epoch_90.png" alt="DCGAN Results" width="400" height="300"/>
@@ -102,13 +85,13 @@
 
 > _Three GAN architectures implemented following original papers_
 
-**🚀 Tech Stack:** `PyTorch` `Lightning` `Hydra` `Computer Vision` `GAN Architectures`
+**Tech Stack:** `PyTorch` `Lightning` `Hydra` `Computer Vision` `GAN Architectures`
 
-**✨ Highlights:**
+**Highlights:**
 
-- 🏗️ Three GAN architectures from scratch using pure PyTorch
-- 📄 Vanilla GAN, DCGAN, and Conditional GAN following original papers
-- 🗂️ Multiple datasets (MNIST, CIFAR-10, Fashion-MNIST)
+- Three GAN architectures from scratch using pure PyTorch
+- Vanilla GAN, DCGAN, and Conditional GAN following original papers
+- Multiple datasets (MNIST, CIFAR-10, Fashion-MNIST)
 
 </td>
 </tr>
@@ -117,7 +100,7 @@
 <tr>
 <td width="50%" valign="top">
 
-### 🤖 [Transformer from Scratch](https://github.com/00200200/transformer-from-scratch-pytorch)
+### [Transformer from Scratch](https://github.com/00200200/transformer-from-scratch-pytorch)
 
 <div align="center">
 <img src="https://img.shields.io/badge/Transformer-From_Scratch-green?style=for-the-badge&logo=pytorch&logoColor=white" alt="Transformer Architecture" width="300"/>
@@ -125,13 +108,13 @@
 
 > _Clean implementation of "Attention is All You Need" paper_
 
-**🚀 Tech Stack:** `PyTorch` `Transformer Architecture` `Multi-Head Attention`
+**Tech Stack:** `PyTorch` `Transformer Architecture` `Multi-Head Attention`
 
-**✨ Highlights:**
+**Highlights:**
 
-- 🏗️ Clean PyTorch implementation following "Attention is All You Need" paper
-- 🧠 Deep understanding of modern NLP architectures
-- ⚡ Complete transformer mechanisms from scratch
+- Clean PyTorch implementation following "Attention is All You Need" paper
+- Deep understanding of modern NLP architectures
+- Complete transformer mechanisms from scratch
 
 </td>
 <td width="50%" valign="top">
@@ -139,7 +122,7 @@
 
 
 
-### 🔍 [Semantic Search: BERT vs GloVe](https://github.com/00200200/bert-vs-glove-semantic-search-engine)
+### [Semantic Search: BERT vs GloVe](https://github.com/00200200/bert-vs-glove-semantic-search-engine)
 
 <div align="center">
 <img src="https://img.shields.io/badge/BERT_vs_GloVe-Comparison-blue?style=for-the-badge&logo=searchengin&logoColor=white" alt="Semantic Search" width="300"/>
@@ -147,13 +130,13 @@
 
 > _Comparative analysis of modern vs traditional embeddings_
 
-**🚀 Tech Stack:** `BERT` `GloVe` `PyTorch` `Transformers` `CORD-19`
+**Tech Stack:** `BERT` `GloVe` `PyTorch` `Transformers` `CORD-19`
 
-**✨ Highlights:**
+**Highlights:**
 
-- 🔬 Comparative semantic search system analyzing academic papers
-- 🤖 BERT and GloVe models for semantic similarity on CORD-19 dataset
-- 📚 Advanced NLP techniques for information retrieval
+- Comparative semantic search system analyzing academic papers
+- BERT and GloVe models for semantic similarity on CORD-19 dataset
+- Advanced NLP techniques for information retrieval
 
 </td>
 </tr>
@@ -168,7 +151,7 @@
 <tr>
 <td width="50%" valign="top">
 
-### 📝 [T5 Text Summarizer](https://github.com/00200200/t5-text-summarization-cnn-dailymail)
+### [T5 Text Summarizer](https://github.com/00200200/t5-text-summarization-cnn-dailymail)
 
 <div align="center">
 <img src="https://github.com/00200200/t5-text-summarization-cnn-dailymail/raw/main/docs/app_gui.png" alt="Summarizer GUI" width="400" height="800" />
@@ -176,19 +159,19 @@
 
 > _Advanced text summarization with T5 transformer_
 
-**🚀 Tech Stack:** `T5` `Transformers` `ROUGE Metrics` `Gradio`
+**Tech Stack:** `T5` `Transformers` `ROUGE Metrics` `Gradio`
 
-**✨ Highlights:**
+**Highlights:**
 
-- 📚 Text summarization models trained on CNN/DailyMail and XSum datasets
-- 🎯 Fine-tuned T5 model with ROUGE evaluation metrics
-- 🖥️ Interactive Gradio interface for easy demonstration
+- Text summarization models trained on CNN/DailyMail and XSum datasets
+- Fine-tuned T5 model with ROUGE evaluation metrics
+- Interactive Gradio interface for easy demonstration
 
 </td>
 <td width="50%" valign="top">
 
 
-  ### 🎭 [Emotube: AI Sentiment Analyzer](https://github.com/00200200/youtube-comment-sentiment-analyzer)
+  ### [Emotube: AI Sentiment Analyzer](https://github.com/00200200/youtube-comment-sentiment-analyzer)
 
 <div align="center">
 <img src="https://github.com/00200200/youtube-comment-sentiment-analyzer/raw/main/readme_photos/ui_home.png" alt="Emotube Interface" width="400" height="150"/>
@@ -196,13 +179,13 @@
 
 > _Advanced sentiment analysis platform powered by transformer models_
 
-**🚀 Tech Stack:** `Transformers` `PyTorch` `FastAPI` `React` `TypeScript`
+**Tech Stack:** `Transformers` `PyTorch` `FastAPI` `React` `TypeScript`
 
-**✨ Highlights:**
+**Highlights:**
 
-- 🧠 Full-stack sentiment analysis platform for YouTube comments
-- ⚡ Modern React frontend with TypeScript for enhanced UX
-- 🗄️ Scalable FastAPI backend with PostgreSQL database
+- Full-stack sentiment analysis platform for YouTube comments
+- Modern React frontend with TypeScript for enhanced UX
+- Scalable FastAPI backend with PostgreSQL database
 
 </td>
 </tr>
@@ -213,7 +196,7 @@
 
 ---
 
-## 📊 GitHub Analytics
+## GitHub Analytics
 
 <div align="center">
   <img width="49%" height="200" src="https://github-readme-stats.vercel.app/api?username=00200200&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6366F1&icon_color=6366F1&text_color=ffffff&count_private=true&include_all_commits=true" />
@@ -226,11 +209,10 @@
 
 ---
 
-## 💬 Let's Connect!
+## Let's Connect!
 
 <div align="center">
 
-[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mchfrg@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/michał-furgała/)
 
 ---
