@@ -27,6 +27,28 @@
 <table>
 <tr>
 <td width="50%" valign="top">
+
+### [Repro Lens](https://github.com/00200200/repro-lens)
+
+> _Catch missing seeds before a commit. Compare experiment outputs before sharing a result._
+
+**Tech Stack:** `Python` `AST` `scikit-learn` `pre-commit`
+
+```bash
+repro-lens check
+repro-lens verify
+```
+
+**Highlights:**
+
+- Static checks for missing or unresolved randomness settings in Python ML code
+- Two-run experiment replay with retained metrics, artifact hashes, and logs
+- CLI, pre-commit hook, and a reproducibility skill for coding agents
+
+[Get started →](https://github.com/00200200/repro-lens#install)
+
+</td>
+<td width="50%" valign="top">
   
 ### [Ollama RAG + Reranker (CLI)](https://github.com/00200200/ollama-rag-reranker)
 
@@ -43,9 +65,6 @@
 - vector search with optional reranking (FlagEmbedding)
 - Interactive CLI with modes: none | rerank | both
 - Local models with Ollama
-
-</td>
-<td width="50%" valign="top">
 
 </td>
 </tr>
