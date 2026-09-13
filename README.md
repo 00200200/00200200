@@ -5,7 +5,6 @@ My work spans reproducibility, local RAG, computer vision, and NLP.
 
 [All repositories](https://github.com/00200200?tab=repositories) · [LinkedIn](https://www.linkedin.com/in/micha%C5%82-furga%C5%82a/)
 
-For a scoped ML reproducibility review or CI setup, [discuss a paid pilot](https://github.com/00200200/repro-lens/blob/main/docs/support.md).
 
 ## Featured projects
 
@@ -17,7 +16,7 @@ For a scoped ML reproducibility review or CI setup, [discuss a paid pilot](https
 - Replay an experiment twice, then compare saved reports before and after an edit. Retain metrics, artifact hashes, commands and logs.
 - Use the CLI, pre-commit hook, or reproducibility skill for coding agents.
 
-See [API coverage and limits](https://github.com/00200200/repro-lens/blob/main/docs/frameworks.md). A clean scan or two matching runs does not establish scientific validity.
+
 
 `Python` `ML reproducibility` `AST` `pre-commit`
 
