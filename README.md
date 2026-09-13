@@ -37,14 +37,17 @@ Start with Humanizer to edit a draft while preserving its facts, code, and meani
 
 ## More ML projects
 
-| Project | What it explores | Main tools |
-| --- | --- | --- |
-| [Video Waste Dumping Detection](https://github.com/00200200/Video-Waste-Dumping-Detection---IWDD) | Video classification for the IWDD contest, with VideoMAE and X-CLIP training configurations. | PyTorch, Lightning |
-| [Sudoku Solver](https://github.com/00200200/sudoku-solver-computer-vision-cnn) | Grid extraction, digit recognition, and backtracking to solve Sudoku from images. | PyTorch, OpenCV |
-| [Adaptive k for Classifier Selection](https://github.com/00200200/complexity_adaptive_k_dynamic_classifier_selection) | How dataset complexity relates to neighborhood size in dynamic classifier selection. | scikit-learn, DESlib |
-| [GANs from Scratch](https://github.com/00200200/gan-architectures-from-scratch-pytorch) | Vanilla GAN, DCGAN, and Conditional GAN on MNIST, CIFAR-10, and Fashion-MNIST. | PyTorch Lightning, Hydra |
-| [T5 Text Summarizer](https://github.com/00200200/t5-text-summarization-cnn-dailymail) | T5-small fine-tuning on CNN/DailyMail and XSum, with ROUGE evaluation and a demo UI. | Transformers, Gradio |
-| [Emotube](https://github.com/00200200/youtube-comment-sentiment-analyzer) | YouTube comment sentiment analysis with filtering and interactive charts. | FastAPI, React, PostgreSQL |
+- **[Video Waste Dumping Detection](https://github.com/00200200/Video-Waste-Dumping-Detection---IWDD)** — Video classification for the IWDD contest, with VideoMAE and X-CLIP training configurations. `PyTorch` `Lightning`
+
+- **[Sudoku Solver](https://github.com/00200200/sudoku-solver-computer-vision-cnn)** — Grid extraction, digit recognition, and backtracking to solve Sudoku from images. `PyTorch` `OpenCV`
+
+- **[Adaptive k for Classifier Selection](https://github.com/00200200/complexity_adaptive_k_dynamic_classifier_selection)** — How dataset complexity relates to neighborhood size in dynamic classifier selection. `scikit-learn` `DESlib`
+
+- **[GANs from Scratch](https://github.com/00200200/gan-architectures-from-scratch-pytorch)** — Vanilla GAN, DCGAN, and Conditional GAN on MNIST, CIFAR-10, and Fashion-MNIST. `PyTorch Lightning` `Hydra`
+
+- **[T5 Text Summarizer](https://github.com/00200200/t5-text-summarization-cnn-dailymail)** — T5-small fine-tuning on CNN/DailyMail and XSum, with ROUGE evaluation and a demo UI. `Transformers` `Gradio`
+
+- **[Emotube](https://github.com/00200200/youtube-comment-sentiment-analyzer)** — YouTube comment sentiment analysis with filtering and interactive charts. `FastAPI` `React` `PostgreSQL`
 
 <details>
 <summary>Project screenshots and sample outputs</summary>
