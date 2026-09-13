@@ -1,245 +1,88 @@
+# Hi, I'm Michał
 
-<div align="center">
-  
-[![Profile Views](https://komarev.com/ghpvc/?username=00200200&label=Profile%20Views&color=6366F1&style=for-the-badge)](https://github.com/00200200)
-[![GitHub followers](https://img.shields.io/github/followers/00200200?label=Followers&style=for-the-badge&color=6366F1&labelColor=1a1b27)](https://github.com/00200200)
-[![GitHub User's stars](https://img.shields.io/github/stars/00200200?label=Total%20Stars&style=for-the-badge&color=6366F1&labelColor=1a1b27)](https://github.com/00200200)
-[![GitHub last commit](https://img.shields.io/github/last-commit/00200200/00200200?label=Last%20Commit&style=for-the-badge&color=6366F1&labelColor=1a1b27)](https://github.com/00200200)
+I build machine learning projects and Python tools for checking experiments and maintaining code.
+My work spans reproducibility, local RAG, computer vision, and NLP.
 
-</div>
+[All repositories](https://github.com/00200200?tab=repositories) · [LinkedIn](https://www.linkedin.com/in/micha%C5%82-furga%C5%82a/)
 
----
-
-<div align="center">
-  <img width="420" height="220" src="https://streak-stats.demolab.com?user=00200200&theme=tokyonight&hide_border=true&border_radius=10&background=0D1117&stroke=6366F1&ring=6366F1&fire=FF6B6B&currStreakLabel=6366F1" />
-
-</div>
-
-</div>
-
----
-
-
-
-## Featured Projects
-
-
-<table>
-<tr>
-<td width="50%" valign="top">
+## Featured projects
 
 ### [Repro Lens](https://github.com/00200200/repro-lens)
 
-> _Catch missing seeds before a commit. Compare experiment outputs before sharing a result._
+**Catch missing seeds before a commit. Compare experiment outputs before sharing a result.**
 
-**Tech Stack:** `Python` `AST` `scikit-learn` `pre-commit`
+- Scan supported Python, NumPy, and scikit-learn randomness calls for missing or unresolved seed settings.
+- Replay an experiment twice and compare metrics and artifact hashes, retaining logs and input hashes.
+- Use the CLI, pre-commit hook, or reproducibility skill for coding agents.
 
-```bash
-repro-lens check
-repro-lens verify
-```
+`Python` `AST` `scikit-learn` `pre-commit`
 
-**Highlights:**
+[Get started](https://github.com/00200200/repro-lens#install) · [Walk through an experiment](https://github.com/00200200/repro-lens/blob/main/docs/quickstart.md)
 
-- Static checks for missing or unresolved randomness settings in Python ML code
-- Two-run experiment replay with retained metrics, artifact hashes, and logs
-- CLI, pre-commit hook, and a reproducibility skill for coding agents
+### [Ollama RAG + Reranker](https://github.com/00200200/ollama-rag-reranker)
 
-[Get started →](https://github.com/00200200/repro-lens#install)
+Local retrieval-augmented generation with Ollama embeddings, HNSW vector search, and optional FlagEmbedding reranking.
+The interactive CLI lets you compare answers with and without reranking.
 
-</td>
-<td width="50%" valign="top">
-  
-### [Ollama RAG + Reranker (CLI)](https://github.com/00200200/ollama-rag-reranker)
+`Python` `Ollama` `HNSW` `FlagEmbedding` `uv`
 
-<div align="center">
-<img src="https://raw.githubusercontent.com/00200200/ollama-rag-reranker/refs/heads/master/assets/cli.png" alt="RAG CLI" width="400"/>
-</div>
+### [Maintainer Skills Lab](https://github.com/00200200/maintainer-skills-lab)
 
-> _Local RAG pipeline using Ollama, VectorDB, and reranking_
+Shared workflows for writing, bug investigation, PR review, and releases, with generated versions for Codex, Claude Code, Cursor, and manual Grok Bot setup.
+Start with Humanizer to edit a draft while preserving its facts, code, and meaning.
 
-**Tech Stack:** `Ollama` `RAG` `VectorDB` `Reranker` `UV`
+`Python` `Markdown` `Skills` `Git hooks`
 
-**Highlights:**
+[Try Humanizer](https://github.com/00200200/maintainer-skills-lab#try-humanizer) · [Browse the workflows](https://github.com/00200200/maintainer-skills-lab/blob/main/providers/README.md)
 
-- vector search with optional reranking (FlagEmbedding)
-- Interactive CLI with modes: none | rerank | both
-- Local models with Ollama
+## More ML projects
 
-</td>
-</tr>
+- **[Video Waste Dumping Detection](https://github.com/00200200/Video-Waste-Dumping-Detection---IWDD)** — Video classification for the IWDD contest, with VideoMAE and X-CLIP training configurations. `PyTorch` `Lightning`
 
+- **[Sudoku Solver](https://github.com/00200200/sudoku-solver-computer-vision-cnn)** — Grid extraction, digit recognition, and backtracking to solve Sudoku from images. `PyTorch` `OpenCV`
 
-  
-<tr>
-<td width="50%" valign="top">
+- **[Adaptive k for Classifier Selection](https://github.com/00200200/complexity_adaptive_k_dynamic_classifier_selection)** — How dataset complexity relates to neighborhood size in dynamic classifier selection. `scikit-learn` `DESlib`
 
+- **[GANs from Scratch](https://github.com/00200200/gan-architectures-from-scratch-pytorch)** — Vanilla GAN, DCGAN, and Conditional GAN on MNIST, CIFAR-10, and Fashion-MNIST. `PyTorch Lightning` `Hydra`
 
+- **[T5 Text Summarizer](https://github.com/00200200/t5-text-summarization-cnn-dailymail)** — T5-small fine-tuning on CNN/DailyMail and XSum, with ROUGE evaluation and a demo UI. `Transformers` `Gradio`
 
-### [Sudoku Solver with Computer Vision](https://github.com/00200200/sudoku-solver-computer-vision-cnn)
+- **[Emotube](https://github.com/00200200/youtube-comment-sentiment-analyzer)** — YouTube comment sentiment analysis with filtering and interactive charts. `FastAPI` `React` `PostgreSQL`
 
-<div align="center">
-<img src="https://github.com/00200200/sudoku-solver-computer-vision-cnn/raw/main/results/pipeline_outputs/20250605_113638_original.jpg" alt="Sudoku Pipeline" width="400"/>
-</div>
+<details>
+<summary>Project screenshots and sample outputs</summary>
 
-> _End-to-end computer vision pipeline for real-time solving_
+#### Ollama RAG: interactive CLI
 
-**Tech Stack:** `PyTorch` `OpenCV` `CNN` `Image Processing`
+<img src="https://raw.githubusercontent.com/00200200/ollama-rag-reranker/master/assets/cli.png" alt="Ollama RAG terminal menu with question, retrieval, and reranking options" width="342" />
 
-**Highlights:**
+#### Sudoku: solved puzzle
 
-- End-to-end pipeline solving Sudoku puzzles
-- Lightweight CNN for digit recognition and grid detection
-- Computer vision techniques for image preprocessing
+<img src="https://raw.githubusercontent.com/00200200/sudoku-solver-computer-vision-cnn/main/results/pipeline_outputs/20250605_113638_solved.jpg" alt="Detected Sudoku grid with the computed solution overlaid" width="640" />
 
+#### DCGAN: generated CIFAR-10 samples
 
-</td>
-<td width="50%" valign="top">
-  
-### [GANs from Scratch](https://github.com/00200200/gan-architectures-from-scratch-pytorch)
+<img src="https://raw.githubusercontent.com/00200200/gan-architectures-from-scratch-pytorch/main/results/dcgan/epoch_90.png" alt="Grid of CIFAR-10 samples generated by DCGAN at epoch 90" width="274" />
 
-<div align="center">
-<img src="https://github.com/00200200/gan-architectures-from-scratch-pytorch/raw/main/results/dcgan/epoch_90.png" alt="DCGAN Results" width="400" height="300"/>
-</div>
+#### T5: summarization interface
 
-> _Three GAN architectures implemented following original papers_
+<img src="https://raw.githubusercontent.com/00200200/t5-text-summarization-cnn-dailymail/main/docs/app_gui.png" alt="Gradio interface for comparing T5 text summaries" width="640" />
 
-**Tech Stack:** `PyTorch` `Lightning` `Hydra` `Computer Vision` `GAN Architectures`
+#### Emotube: application home page
 
-**Highlights:**
+<img src="https://raw.githubusercontent.com/00200200/youtube-comment-sentiment-analyzer/main/readme_photos/ui_home.png" alt="Emotube home page for starting YouTube comment analysis" width="640" />
 
-- Three GAN architectures from scratch using pure PyTorch
-- Vanilla GAN, DCGAN, and Conditional GAN following original papers
-- Multiple datasets (MNIST, CIFAR-10, Fashion-MNIST)
+</details>
 
-</td>
-</tr>
+<details>
+<summary>GitHub activity</summary>
 
-<table>
-<tr>
-<td width="50%" valign="top">
+[![Profile views](https://komarev.com/ghpvc/?username=00200200&label=Profile%20Views&color=6366F1&style=flat)](https://github.com/00200200)
+[![GitHub followers](https://img.shields.io/github/followers/00200200?label=Followers&style=flat&color=6366F1)](https://github.com/00200200?tab=followers)
+[![GitHub stars](https://img.shields.io/github/stars/00200200?label=Stars&style=flat&color=6366F1)](https://github.com/00200200?tab=repositories)
 
-### [Transformer from Scratch](https://github.com/00200200/transformer-from-scratch-pytorch)
+<img src="https://streak-stats.demolab.com?user=00200200&amp;theme=tokyonight&amp;hide_border=true&amp;border_radius=10&amp;background=0D1117&amp;stroke=6366F1&amp;ring=6366F1&amp;fire=FF6B6B&amp;currStreakLabel=6366F1" alt="GitHub contribution streak statistics for 00200200" width="495" />
 
-<div align="center">
-<img src="https://img.shields.io/badge/Transformer-From_Scratch-green?style=for-the-badge&logo=pytorch&logoColor=white" alt="Transformer Architecture" width="300"/>
-</div>
+<img src="https://raw.githubusercontent.com/00200200/00200200/output/snake.svg" alt="Snake animation of the GitHub contribution graph" width="880" />
 
-> _Clean implementation of "Attention is All You Need" paper_
-
-**Tech Stack:** `PyTorch` `Transformer Architecture` `Multi-Head Attention`
-
-**Highlights:**
-
-- Clean PyTorch implementation following "Attention is All You Need" paper
-- Deep understanding of modern NLP architectures
-- Complete transformer mechanisms from scratch
-
-</td>
-<td width="50%" valign="top">
-
-
-
-
-### [Semantic Search: BERT vs GloVe](https://github.com/00200200/bert-vs-glove-semantic-search-engine)
-
-<div align="center">
-<img src="https://img.shields.io/badge/BERT_vs_GloVe-Comparison-blue?style=for-the-badge&logo=searchengin&logoColor=white" alt="Semantic Search" width="300"/>
-</div>
-
-> _Comparative analysis of modern vs traditional embeddings_
-
-**Tech Stack:** `BERT` `GloVe` `PyTorch` `Transformers` `CORD-19`
-
-**Highlights:**
-
-- Comparative semantic search system analyzing academic papers
-- BERT and GloVe models for semantic similarity on CORD-19 dataset
-- Advanced NLP techniques for information retrieval
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-</td>
-<td width="50%" valign="top">
-
-</td>
-</tr>
-
-<tr>
-<td width="50%" valign="top">
-
-### [T5 Text Summarizer](https://github.com/00200200/t5-text-summarization-cnn-dailymail)
-
-<div align="center">
-<img src="https://github.com/00200200/t5-text-summarization-cnn-dailymail/raw/main/docs/app_gui.png" alt="Summarizer GUI" width="400" height="800" />
-</div>
-
-> _Advanced text summarization with T5 transformer_
-
-**Tech Stack:** `T5` `Transformers` `ROUGE Metrics` `Gradio`
-
-**Highlights:**
-
-- Text summarization models trained on CNN/DailyMail and XSum datasets
-- Fine-tuned T5 model with ROUGE evaluation metrics
-- Interactive Gradio interface for easy demonstration
-
-</td>
-<td width="50%" valign="top">
-
-
-  ### [Emotube: AI Sentiment Analyzer](https://github.com/00200200/youtube-comment-sentiment-analyzer)
-
-<div align="center">
-<img src="https://github.com/00200200/youtube-comment-sentiment-analyzer/raw/main/readme_photos/ui_home.png" alt="Emotube Interface" width="400" height="150"/>
-</div>
-
-> _Advanced sentiment analysis platform powered by transformer models_
-
-**Tech Stack:** `Transformers` `PyTorch` `FastAPI` `React` `TypeScript`
-
-**Highlights:**
-
-- Full-stack sentiment analysis platform for YouTube comments
-- Modern React frontend with TypeScript for enhanced UX
-- Scalable FastAPI backend with PostgreSQL database
-
-</td>
-</tr>
-</table>
-
-
-
-
----
-
-## GitHub Analytics
-
-<div align="center">
-  <img width="49%" height="200" src="https://github-readme-stats.vercel.app/api?username=00200200&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6366F1&icon_color=6366F1&text_color=ffffff&count_private=true&include_all_commits=true" />
-  <img width="49%" height="200" src="https://github-readme-stats.vercel.app/api/top-langs/?username=00200200&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6366F1&text_color=ffffff&icon_color=6366F1&langs_count=10&hide=html,css,javascript,typescript" />
-</div>
-
-<div align="center">
-  <img width="60%" height="200" src="https://github-profile-trophy.vercel.app/?username=00200200&theme=tokyonight&no-frame=true&margin-w=15&margin-h=15&row=2&column=3" />
-</div>
-
----
-
-## Let's Connect!
-
-<div align="center">
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/michał-furgała/)
-
----
-
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=6366F1&height=100&section=footer" width="100%" />
-</div>
-
-<img src="https://raw.githubusercontent.com/00200200/00200200/output/snake.svg" alt="Snake animation" />
-
-</div>
+</details>
