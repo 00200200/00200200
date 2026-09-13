@@ -5,19 +5,23 @@ My work spans reproducibility, local RAG, computer vision, and NLP.
 
 [All repositories](https://github.com/00200200?tab=repositories) · [LinkedIn](https://www.linkedin.com/in/micha%C5%82-furga%C5%82a/)
 
+For a scoped ML reproducibility review or CI setup, [discuss a paid pilot](https://github.com/00200200/repro-lens/blob/main/docs/support.md).
+
 ## Featured projects
 
 ### [Repro Lens](https://github.com/00200200/repro-lens)
 
-**Catch missing seeds before a commit. Compare experiment outputs before sharing a result.**
+**Check whether a refactor or a coding agent's edit changed your experiment outputs.**
 
-- Scan supported Python, NumPy, and scikit-learn randomness calls for missing or unresolved seed settings.
-- Replay an experiment twice and compare metrics and artifact hashes, retaining logs and input hashes.
+- Screen selected reproducibility risks in scikit-learn, XGBoost, LightGBM, PyTorch, TensorFlow and Lightning, plus Python and NumPy RNGs. Static checks need no ML dependencies.
+- Replay an experiment twice, then compare saved reports before and after an edit. Retain metrics, artifact hashes, commands and logs.
 - Use the CLI, pre-commit hook, or reproducibility skill for coding agents.
 
-`Python` `AST` `scikit-learn` `pre-commit`
+See [API coverage and limits](https://github.com/00200200/repro-lens/blob/main/docs/frameworks.md). A clean scan or two matching runs does not establish scientific validity.
 
-[Get started](https://github.com/00200200/repro-lens#install) · [Walk through an experiment](https://github.com/00200200/repro-lens/blob/main/docs/quickstart.md)
+`Python` `ML reproducibility` `AST` `pre-commit`
+
+[Run the before/after demo](https://github.com/00200200/repro-lens/tree/main/examples/agent_review) · [Install](https://github.com/00200200/repro-lens#install) · [Walk through an experiment](https://github.com/00200200/repro-lens/blob/main/docs/quickstart.md)
 
 ### [Ollama RAG + Reranker](https://github.com/00200200/ollama-rag-reranker)
 
