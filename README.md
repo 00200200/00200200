@@ -21,7 +21,9 @@ See [API coverage and limits](https://github.com/00200200/repro-lens/blob/main/d
 
 `Python` `ML reproducibility` `AST` `pre-commit`
 
-[Run the before/after demo](https://github.com/00200200/repro-lens/tree/main/examples/agent_review) · [Install](https://github.com/00200200/repro-lens#install) · [Walk through an experiment](https://github.com/00200200/repro-lens/blob/main/docs/quickstart.md)
+[Quick demo — no ML dependencies](https://github.com/00200200/repro-lens/tree/main/examples/agent_review) · [XGBoost training example — CPU](https://github.com/00200200/repro-lens/tree/main/examples/xgboost_review) · [Install](https://github.com/00200200/repro-lens#install)
+
+The XGBoost example trains on a small synthetic dataset, accepts a refactor that preserves outputs, and reports changed outputs after reducing tree depth.
 
 ### [Ollama RAG + Reranker](https://github.com/00200200/ollama-rag-reranker)
 
@@ -32,12 +34,13 @@ The interactive CLI lets you compare answers with and without reranking.
 
 ### [Maintainer Skills Lab](https://github.com/00200200/maintainer-skills-lab)
 
-Shared workflows for writing, bug investigation, PR review, and releases, with generated versions for Codex, Claude Code, Cursor, and manual Grok Bot setup.
-Start with Humanizer to edit a draft while preserving its facts, code, and meaning.
+Shared skills, agent profiles and opt-in Git hooks for writing, debugging, PR review and releases.
+Generated versions support Codex, Claude Code, Cursor and OpenCode; Grok Bot uses manual setup.
+Start with Humanizer to edit a draft, or Skill Watch to track documentation changes and identify instructions needing review.
 
 `Python` `Markdown` `Skills` `Git hooks`
 
-[Try Humanizer](https://github.com/00200200/maintainer-skills-lab#try-humanizer) · [Browse the workflows](https://github.com/00200200/maintainer-skills-lab/blob/main/providers/README.md)
+[Try Humanizer](https://github.com/00200200/maintainer-skills-lab#try-humanizer) · [Browse the workflows](https://github.com/00200200/maintainer-skills-lab/blob/main/providers/README.md) · [Skill Watch demo](https://github.com/00200200/maintainer-skills-lab/tree/main/examples/skill-watch)
 
 ## More ML projects
 
