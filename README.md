@@ -3,8 +3,7 @@
 I build machine learning projects and Python tools for checking experiments and maintaining code.
 My work spans reproducibility, local RAG, computer vision, and NLP.
 
-[All repositories](https://github.com/00200200?tab=repositories) · [LinkedIn](https://www.linkedin.com/in/micha%C5%82-furga%C5%82a/)
-
+[All repositories](https://github.com/00200200?tab=repositories) 
 
 ## Featured projects
 
