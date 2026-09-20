@@ -1,9 +1,35 @@
 # Hi, I'm Michał
 
-I build machine learning projects and Python tools for checking experiments and maintaining code.
-My work spans reproducibility, local RAG, computer vision, and NLP.
+I build developer tools for AI agents, context optimization, and machine learning reproducibility.
+My work spans AI token optimization, agent harnesses, local RAG, computer vision, and NLP.
 
-[All repositories](https://github.com/00200200?tab=repositories) 
+[All repositories](https://github.com/00200200?tab=repositories)
+
+---
+
+## ⚡ Flagship Project
+
+### [tokencut](https://github.com/00200200/tokencut) — SOTA Token Optimizer & Universal MCP Server
+
+<a href="https://github.com/00200200/tokencut">
+  <img src="https://raw.githubusercontent.com/00200200/tokencut/main/assets/banner.svg" alt="tokencut — SOTA Token Optimizer for Claude Code, Cursor, Codex, and Gemini CLI" width="100%" />
+</a>
+
+<br />
+
+**Cut token burn by 60–85% in Claude Code, Cursor, Codex, and Gemini CLI with Zero Quality Loss.**
+
+- **Stop Hitting the 5-Hour Rate Limit:** Solves the quadratic context accumulation problem in multi-turn AI coding sessions.
+- **100% Reversible CCR Architecture:** Automatically caches omitted logs in local SQLite; retrieve any raw line on demand via reference tags (`tc_xxxx`).
+- **Semantic Error & Traceback Preserver:** Retains 100% of error traces and failing assertions while compressing routine build/test spam.
+- **AST Code Skeletons & Repo Token Tree:** Inspect file signatures instead of dumping whole codebases, and pinpoint token-hogging lockfiles.
+- **Universal MCP Server:** Install into Claude Code in one command: `claude mcp add tokencut uvx tokencut mcp`.
+
+`Python` `Claude Code` `MCP` `Cursor` `Token Optimization` `AST` `Developer Tools`
+
+[⭐ Star on GitHub](https://github.com/00200200/tokencut) · [Quickstart (Zero Install)](https://github.com/00200200/tokencut#-quick-start) · [Real-World Benchmarks](https://github.com/00200200/tokencut#-real-world-benchmarks)
+
+---
 
 ## Featured projects
 
@@ -14,8 +40,6 @@ My work spans reproducibility, local RAG, computer vision, and NLP.
 - Screen selected reproducibility risks in scikit-learn, XGBoost, LightGBM, PyTorch, TensorFlow and Lightning, plus Python and NumPy RNGs. Static checks need no ML dependencies.
 - Replay an experiment twice, then compare saved reports before and after an edit. Retain metrics, artifact hashes, commands and logs.
 - Use the CLI, pre-commit hook, or reproducibility skill for coding agents.
-
-
 
 `Python` `ML reproducibility` `AST` `pre-commit`
 
