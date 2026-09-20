@@ -7,31 +7,20 @@ My work spans AI token optimization, agent harnesses, local RAG, computer vision
 
 ---
 
-## ⚡ Flagship Project
-
-### [tokencut](https://github.com/00200200/tokencut) — SOTA Token Optimizer & Universal MCP Server
-
-<a href="https://github.com/00200200/tokencut">
-  <img src="https://raw.githubusercontent.com/00200200/tokencut/main/assets/banner.svg" alt="tokencut — SOTA Token Optimizer for Claude Code, Cursor, Codex, and Gemini CLI" width="100%" />
-</a>
-
-<br />
-
-**Cut token burn by 60–85% in Claude Code, Cursor, Codex, and Gemini CLI with Zero Quality Loss.**
-
-- **Stop Hitting the 5-Hour Rate Limit:** Solves the quadratic context accumulation problem in multi-turn AI coding sessions.
-- **100% Reversible CCR Architecture:** Automatically caches omitted logs in local SQLite; retrieve any raw line on demand via reference tags (`tc_xxxx`).
-- **Semantic Error & Traceback Preserver:** Retains 100% of error traces and failing assertions while compressing routine build/test spam.
-- **AST Code Skeletons & Repo Token Tree:** Inspect file signatures instead of dumping whole codebases, and pinpoint token-hogging lockfiles.
-- **Universal MCP Server:** Install into Claude Code in one command: `claude mcp add tokencut uvx tokencut mcp`.
-
-`Python` `Claude Code` `MCP` `Cursor` `Token Optimization` `AST` `Developer Tools`
-
-[⭐ Star on GitHub](https://github.com/00200200/tokencut) · [Quickstart (Zero Install)](https://github.com/00200200/tokencut#-quick-start) · [Real-World Benchmarks](https://github.com/00200200/tokencut#-real-world-benchmarks)
-
----
-
 ## Featured projects
+
+### [tokencut](https://github.com/00200200/tokencut)
+
+**Context compression engine and MCP server for Claude Code, Cursor, and Gemini CLI.**
+
+- Reduces token consumption by 60–85% on test, build, and git outputs while preserving full error traces and failing assertions.
+- Reversible Compress-Cache-Retrieve (CCR) store caches omitted output in local SQLite with reference tags for on-demand inspection.
+- Generates AST code skeletons and profiles directory-level token consumption to prevent lockfile context bloat.
+- Zero-install MCP integration: `claude mcp add tokencut uvx tokencut mcp`.
+
+`Python` `MCP` `Claude Code` `Cursor` `Context Optimization` `AST`
+
+[Repository](https://github.com/00200200/tokencut) · [Benchmarks](https://github.com/00200200/tokencut#empirical-benchmarks) · [Quickstart](https://github.com/00200200/tokencut#quickstart)
 
 ### [Repro Lens](https://github.com/00200200/repro-lens)
 
