@@ -11,14 +11,21 @@ My work spans AI token optimization, agent harnesses, local RAG, computer vision
 
 ### [tokencut](https://github.com/00200200/tokencut)
 
-**Context compression engine and MCP server for Claude Code, Cursor, and Gemini CLI.**
+<a href="https://github.com/00200200/tokencut">
+  <img src="https://raw.githubusercontent.com/00200200/tokencut/main/assets/banner.svg" alt="tokencut — Context Compression Engine & Universal MCP Server" width="100%" />
+</a>
 
-- Reduces token consumption by 60–85% on test, build, and git outputs while preserving full error traces and failing assertions.
-- Reversible Compress-Cache-Retrieve (CCR) store caches omitted output in local SQLite with reference tags for on-demand inspection.
-- Generates AST code skeletons and profiles directory-level token consumption to prevent lockfile context bloat.
-- Zero-install MCP integration: `claude mcp add tokencut uvx tokencut mcp`.
+<br />
 
-`Python` `MCP` `Claude Code` `Cursor` `Context Optimization` `AST`
+**Context compression engine and universal MCP server for Claude Desktop, ChatGPT macOS, Cursor, and CLI.**
+
+- Cuts token consumption by 60–85% across Claude Desktop, ChatGPT macOS, Cursor, and terminal pipelines while retaining full error traces and assertion frames.
+- Reversible Compress-Cache-Retrieve (CCR) store caches omitted logs in local SQLite with reference tags (`tc_xxxx`) for on-demand inspection.
+- Universal MCP integration: 1-click configuration for Claude Desktop, Cursor, and shell aliases via `tokencut install --all`.
+- Generates AST code skeletons, profiles directory token consumption (`tokencut tree`), and compacts massive JSON API responses (`tokencut json`).
+- Automated PR token impact analyzer (`tokencut pr`) and composite GitHub Action preventing context bloat in team repositories.
+
+`Python` `MCP` `Claude Desktop` `ChatGPT macOS` `Cursor` `Context Optimization` `AST`
 
 [Repository](https://github.com/00200200/tokencut) · [Benchmarks](https://github.com/00200200/tokencut#empirical-benchmarks) · [Quickstart](https://github.com/00200200/tokencut#quickstart)
 
