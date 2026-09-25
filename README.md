@@ -20,6 +20,7 @@ My work spans AI token optimization, agent harnesses, local RAG, computer vision
 
 **Keep the signal. Cut the noise.** Local CLI + MCP that folds verbose tool output for Claude Code, Codex, Cursor, and Claude Desktop — recoverable by reference.
 
+- Losslessly compacts other MCP servers' output (JSON rows → TSV, unescaped wrappers): −18.3% on 11,058 real results.
 - Folds passing tests, build progress, runner setup, and bulky JSON while keeping failures, assertions, and stack traces verbatim.
 - Every cut is recoverable: the original stays in a local cache behind a `usagetrim retrieve <ref>` id. No model calls, nothing leaves the machine.
 - Specialized filters for pytest, cargo, go, vitest, eslint, tsc, mypy, Docker, kubectl, terraform, `gh` JSON, and GitHub Actions logs.
@@ -27,12 +28,14 @@ My work spans AI token optimization, agent harnesses, local RAG, computer vision
 - Optional native macOS pet showing remaining Codex/Claude allowance.
 
 ```sh
-uv tool install usagetrim && usagetrim demo
+# inside Claude Code
+/plugin marketplace add 00200200/usagetrim
+/plugin install usagetrim@usagetrim
 ```
 
 `Python` `Swift` `MCP` `Claude Code` `Codex` `Cursor` `Claude Desktop` `Context Engineering`
 
-[Repository](https://github.com/00200200/usagetrim) · [Install](https://github.com/00200200/usagetrim#install) · [Demo](https://github.com/00200200/usagetrim#see-it-cut) · [Connect your agent](https://github.com/00200200/usagetrim#connect-your-agent) · [Guide](https://github.com/00200200/usagetrim/blob/main/docs/guide.md)
+[Website](https://00200200.github.io/usagetrim/) · [Repository](https://github.com/00200200/usagetrim) · [Install](https://github.com/00200200/usagetrim#install) · [Demo](https://github.com/00200200/usagetrim#see-it-cut) · [Connect your agent](https://github.com/00200200/usagetrim#connect-your-agent) · [Guide](https://github.com/00200200/usagetrim/blob/main/docs/guide.md)
 
 ### [Repro Lens](https://github.com/00200200/repro-lens)
 
