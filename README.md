@@ -9,26 +9,30 @@ My work spans AI token optimization, agent harnesses, local RAG, computer vision
 
 ## Featured projects
 
-### [tokencut](https://github.com/00200200/tokencut)
+### [UsageTrim](https://github.com/00200200/usagetrim)
 
-<a href="https://github.com/00200200/tokencut">
-  <img src="https://raw.githubusercontent.com/00200200/tokencut/main/assets/banner.svg" alt="tokencut — Context Compression Engine & Universal MCP Server" width="100%" />
+<a href="https://github.com/00200200/usagetrim">
+  <picture>
+    <source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/00200200/usagetrim/main/assets/readme-hero.png">
+    <img src="https://raw.githubusercontent.com/00200200/usagetrim/main/assets/readme-hero.gif" width="100%" alt="UsageTrim: keep the signal, cut the noise. Authored fixtures cut docker 18,360→107, cargo 3,795→185, pytest 1,562→174.">
+  </picture>
 </a>
 
-<br />
+**Keep the signal. Cut the noise.** Local CLI + MCP that folds verbose tool output for Claude Code, Codex, Cursor, and Claude Desktop — recoverable by reference.
 
-**Context compression engine and universal MCP server for Claude Desktop, ChatGPT macOS, Cursor, Windsurf, and CLI.**
+- Folds passing tests, build progress, runner setup, and bulky JSON while keeping failures, assertions, and stack traces verbatim.
+- Every cut is recoverable: the original stays in a local cache behind a `usagetrim retrieve <ref>` id. No model calls, nothing leaves the machine.
+- Specialized filters for pytest, cargo, go, vitest, eslint, tsc, mypy, Docker, kubectl, terraform, `gh` JSON, and GitHub Actions logs.
+- Lean MCP profiles (9–11 tools, 36–38% smaller schemas), targeted symbol reads, session dedup, and a `gain` report of local estimates.
+- Optional native macOS pet showing remaining Codex/Claude allowance.
 
-- Cuts token consumption by 60–85% across Claude Desktop, ChatGPT macOS, Cursor, and terminal pipelines while retaining full error traces and assertion frames.
-- Reversible Compress-Cache-Retrieve (CCR) store caches omitted logs in local SQLite with reference tags (`tc_xxxx`) for on-demand inspection.
-- Native macOS desktop companion (`TokenCut.app`): draggable SwiftUI pet monitoring real-time token reduction and active subscription quotas (Codex, Claude).
-- Universal MCP integration: 1-click configuration for Claude Desktop, Cursor, Windsurf, and shell aliases via `tokencut install --all`.
-- Generates AST code skeletons, profiles directory token consumption (`tokencut tree`), and compacts massive JSON API responses (`tokencut json`).
-- Automated PR token impact analyzer (`tokencut pr`) and composite GitHub Action preventing context bloat in team repositories.
+```sh
+uv tool install usagetrim && usagetrim demo
+```
 
-`Python` `Swift` `macOS Companion` `MCP` `Claude Desktop` `ChatGPT macOS` `Cursor` `Context Optimization`
+`Python` `Swift` `MCP` `Claude Code` `Codex` `Cursor` `Claude Desktop` `Context Engineering`
 
-[Repository](https://github.com/00200200/tokencut) · [Desktop Pet](https://github.com/00200200/tokencut#macos-desktop-pet-local-preview) · [Benchmarks](https://github.com/00200200/tokencut#reproducible-fixture-benchmarks) · [Quickstart](https://github.com/00200200/tokencut#quickstart)
+[Repository](https://github.com/00200200/usagetrim) · [Install](https://github.com/00200200/usagetrim#install) · [Demo](https://github.com/00200200/usagetrim#see-it-cut) · [Connect your agent](https://github.com/00200200/usagetrim#connect-your-agent) · [Guide](https://github.com/00200200/usagetrim/blob/main/docs/guide.md)
 
 ### [Repro Lens](https://github.com/00200200/repro-lens)
 
