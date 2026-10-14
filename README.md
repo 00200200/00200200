@@ -5,6 +5,18 @@ My work spans AI token optimization, agent harnesses, local RAG, computer vision
 
 [All repositories](https://github.com/00200200?tab=repositories)
 
+## Selected merged contributions
+
+Alongside my own projects, I contribute fixes to upstream open-source libraries.
+These pull requests have been merged:
+
+| Project | Change | Pull request |
+| --- | --- | --- |
+| AnyIO | Skip empty object-stream messages when receiving buffered bytes. | [#1409](https://github.com/agronholm/anyio/pull/1409) |
+| serde_json | Report invalid UTF-8 at the first bad byte rather than the end of the string. | [#1345](https://github.com/serde-rs/json/pull/1345) |
+| redis-py | Preserve zero-valued GEOSEARCH arguments instead of silently dropping them. | [#4356](https://github.com/redis/redis-py/pull/4356) |
+| Fiber | Let empty optional route parameters yield to later required segments. | [#4722](https://github.com/gofiber/fiber/pull/4722) |
+
 ---
 
 ## Featured projects
@@ -47,7 +59,7 @@ My work spans AI token optimization, agent harnesses, local RAG, computer vision
 
 `Python` `ML reproducibility` `AST` `pre-commit`
 
-[Quick demo — no ML dependencies](https://github.com/00200200/repro-lens/tree/main/examples/agent_review) · [XGBoost training example — CPU](https://github.com/00200200/repro-lens/tree/main/examples/xgboost_review) · [Install](https://github.com/00200200/repro-lens#install)
+[Quick demo — no ML dependencies](https://github.com/00200200/repro-lens/tree/main/examples/agent_review) · [XGBoost training example — CPU](https://github.com/00200200/repro-lens/tree/main/examples/xgboost_review) · [Quickstart](https://github.com/00200200/repro-lens/blob/main/docs/quickstart.md)
 
 The XGBoost example trains on a small synthetic dataset, accepts a refactor that preserves outputs, and reports changed outputs after reducing tree depth.
 
@@ -66,7 +78,7 @@ Start with Humanizer to edit a draft, or Skill Watch to track documentation chan
 
 `Python` `Markdown` `Skills` `Git hooks`
 
-[Try Humanizer](https://github.com/00200200/maintainer-skills-lab#try-humanizer) · [Browse the workflows](https://github.com/00200200/maintainer-skills-lab/blob/main/providers/README.md) · [Skill Watch demo](https://github.com/00200200/maintainer-skills-lab/tree/main/examples/skill-watch)
+[Humanizer skill](https://github.com/00200200/maintainer-skills-lab/blob/main/skills/mkl-humanize/SKILL.md) · [Browse the workflows](https://github.com/00200200/maintainer-skills-lab/blob/main/providers/README.md) · [Skill Watch demo](https://github.com/00200200/maintainer-skills-lab/tree/main/examples/skill-watch)
 
 ## More ML projects
 
