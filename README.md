@@ -118,16 +118,3 @@ Start with Humanizer to edit a draft, or Skill Watch to track documentation chan
 <img src="https://raw.githubusercontent.com/00200200/youtube-comment-sentiment-analyzer/main/readme_photos/ui_home.png" alt="Emotube home page for starting YouTube comment analysis" width="640" />
 
 </details>
-
-<details>
-<summary>GitHub activity</summary>
-
-[![Profile views](https://komarev.com/ghpvc/?username=00200200&label=Profile%20Views&color=6366F1&style=flat)](https://github.com/00200200)
-[![GitHub followers](https://img.shields.io/github/followers/00200200?label=Followers&style=flat&color=6366F1)](https://github.com/00200200?tab=followers)
-[![GitHub stars](https://img.shields.io/github/stars/00200200?label=Stars&style=flat&color=6366F1)](https://github.com/00200200?tab=repositories)
-
-<img src="https://streak-stats.demolab.com?user=00200200&amp;theme=tokyonight&amp;hide_border=true&amp;border_radius=10&amp;background=0D1117&amp;stroke=6366F1&amp;ring=6366F1&amp;fire=FF6B6B&amp;currStreakLabel=6366F1" alt="GitHub contribution streak statistics for 00200200" width="495" />
-
-<img src="https://raw.githubusercontent.com/00200200/00200200/output/snake.svg" alt="Snake animation of the GitHub contribution graph" width="880" />
-
-</details>
