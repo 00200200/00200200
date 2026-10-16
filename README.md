@@ -24,6 +24,7 @@ A selection of merged pull requests across core open-source infrastructure:
 | **pytest-httpserver** | Python | Preserve headers on mock server responses | [#411](https://github.com/csernazs/pytest-httpserver/pull/411) |
 | **chardet** | Python | Handle edge cases in character set detection | [#305](https://github.com/chardet/chardet/pull/305) |
 | **afero** | Go | Fix filesystem abstraction handling | [#428](https://github.com/spf13/afero/pull/428) |
+| **set-cookie-parser** | JavaScript | Ignore invalid `Expires` attributes to retain valid expiry dates (v3.1.4) | [#91](https://github.com/nfriedly/set-cookie-parser/pull/91) |
 
 ---
 
