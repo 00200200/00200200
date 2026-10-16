@@ -1,120 +1,80 @@
-# Hi, I'm Michał
+# Michał Furgała
 
-I build developer tools for AI agents, context optimization, and machine learning reproducibility.
-My work spans AI token optimization, agent harnesses, local RAG, computer vision, and NLP.
+Software engineer and machine learning practitioner.  
+Focused on computer vision, applied ML, developer tooling, and open-source systems across Python, PyTorch, Go, and Rust.
 
-[All repositories](https://github.com/00200200?tab=repositories)
-
-## Selected merged contributions
-
-Alongside my own projects, I contribute fixes to upstream open-source libraries.
-These pull requests have been merged:
-
-| Project | Change | Pull request |
-| --- | --- | --- |
-| AnyIO | Skip empty object-stream messages when receiving buffered bytes. | [#1409](https://github.com/agronholm/anyio/pull/1409) |
-| serde_json | Report invalid UTF-8 at the first bad byte rather than the end of the string. | [#1345](https://github.com/serde-rs/json/pull/1345) |
-| redis-py | Preserve zero-valued GEOSEARCH arguments instead of silently dropping them. | [#4356](https://github.com/redis/redis-py/pull/4356) |
-| Fiber | Let empty optional route parameters yield to later required segments. | [#4722](https://github.com/gofiber/fiber/pull/4722) |
+[All Repositories](https://github.com/00200200?tab=repositories)
 
 ---
 
-## Featured projects
+## Merged Open Source Contributions
 
-### [UsageTrim](https://github.com/00200200/usagetrim)
+A selection of merged pull requests across core open-source infrastructure:
 
-<a href="https://github.com/00200200/usagetrim">
-  <picture>
-    <source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/00200200/usagetrim/main/assets/readme-hero.png">
-    <img src="https://raw.githubusercontent.com/00200200/usagetrim/main/assets/readme-hero.gif" width="100%" alt="UsageTrim: keep the signal, cut the noise. Authored fixtures cut docker 18,360→107, cargo 3,795→185, pytest 1,562→174.">
-  </picture>
-</a>
+| Project | Ecosystem | Summary | Pull Request |
+| :--- | :--- | :--- | :--- |
+| **PyCQA / isort** | Python | Respect extension filters for explicit files with `--filter-files` | [#2720](https://github.com/PyCQA/isort/pull/2720) |
+| **DuckDB** | Python / C++ | Honor `overwrite=False` for existing Parquet and CSV relations | [#668](https://github.com/duckdb/duckdb-python/pull/668) |
+| **urllib3** | Python | Ensure Memray plugin availability before configuring pytest options | [#5307](https://github.com/urllib3/urllib3/pull/5307) |
+| **serde_json** | Rust | Report invalid UTF-8 at the first bad byte rather than string end | [#1345](https://github.com/serde-rs/json/pull/1345) |
+| **AnyIO** | Python | Skip empty object-stream messages when receiving buffered bytes | [#1409](https://github.com/agronholm/anyio/pull/1409) |
+| **redis-py** | Python | Preserve zero-valued `GEOSEARCH` arguments instead of dropping them | [#4356](https://github.com/redis/redis-py/pull/4356) |
+| **Fiber** | Go | Let empty optional route parameters yield to later required segments | [#4722](https://github.com/gofiber/fiber/pull/4722) |
+| **narwhals** | Python | Preserve metadata across Arrow table conversions | [#2790](https://github.com/narwhals-dev/narwhals/pull/2790) |
+| **pytest-httpserver** | Python | Preserve headers on mock server responses | [#411](https://github.com/csernazs/pytest-httpserver/pull/411) |
+| **chardet** | Python | Handle edge cases in character set detection | [#305](https://github.com/chardet/chardet/pull/305) |
+| **afero** | Go | Fix filesystem abstraction handling | [#428](https://github.com/spf13/afero/pull/428) |
 
-**Keep the signal. Cut the noise.** Local CLI + MCP that folds verbose tool output for Claude Code, Codex, Cursor, and Claude Desktop — recoverable by reference.
+---
 
-- Losslessly compacts other MCP servers' output (JSON rows → TSV, unescaped wrappers): −18.3% on 11,058 real results.
-- Folds passing tests, build progress, runner setup, and bulky JSON while keeping failures, assertions, and stack traces verbatim.
-- Every cut is recoverable: the original stays in a local cache behind a `usagetrim retrieve <ref>` id. No model calls, nothing leaves the machine.
-- Specialized filters for pytest, cargo, go, vitest, eslint, tsc, mypy, Docker, kubectl, terraform, `gh` JSON, and GitHub Actions logs.
-- Lean MCP profiles (9–11 tools, 36–38% smaller schemas), targeted symbol reads, session dedup, and a `gain` report of local estimates.
-- Optional native macOS pet showing remaining Codex/Claude allowance.
+## Projects
 
-```sh
-# inside Claude Code
-/plugin marketplace add 00200200/usagetrim
-/plugin install usagetrim@usagetrim
-```
+### Computer Vision & Deep Learning
 
-`Python` `Swift` `MCP` `Claude Code` `Codex` `Cursor` `Claude Desktop` `Context Engineering`
+- **[Video Waste Dumping Detection (IWDD)](https://github.com/00200200/Video-Waste-Dumping-Detection---IWDD)**  
+  Video classification pipeline developed for the international IWDD competition. Evaluates VideoMAE and X-CLIP architectures for automated surveillance and environmental monitoring.  
+  `PyTorch` `PyTorch Lightning` `OpenCV` `VideoMAE`
 
-[Website](https://00200200.github.io/usagetrim/) · [Repository](https://github.com/00200200/usagetrim) · [Install](https://github.com/00200200/usagetrim#install) · [Demo](https://github.com/00200200/usagetrim#see-it-cut) · [Connect your agent](https://github.com/00200200/usagetrim#connect-your-agent) · [Guide](https://github.com/00200200/usagetrim/blob/main/docs/guide.md)
+- **[Sudoku Solver CV Pipeline](https://github.com/00200200/sudoku-solver-computer-vision-cnn)**  
+  End-to-end vision pipeline that extracts Sudoku grids from arbitrary camera images using OpenCV perspective transforms, classifies handwritten/printed digits with a PyTorch CNN, and solves the board via constraint satisfaction.  
+  `PyTorch` `OpenCV` `CNN` `Python`
 
-### [Repro Lens](https://github.com/00200200/repro-lens)
+- **[GAN Architectures from Scratch](https://github.com/00200200/gan-architectures-from-scratch-pytorch)**  
+  Clean implementations of Vanilla GAN, Deep Convolutional GAN (DCGAN), and Conditional GAN (cGAN) on MNIST, CIFAR-10, and Fashion-MNIST with PyTorch Lightning and Hydra configuration.  
+  `PyTorch Lightning` `Hydra` `Computer Vision`
 
-**Check whether a refactor or a coding agent's edit changed your experiment outputs.**
+---
 
-- Screen selected reproducibility risks in scikit-learn, XGBoost, LightGBM, PyTorch, TensorFlow and Lightning, plus Python and NumPy RNGs. Static checks need no ML dependencies.
-- Replay an experiment twice, then compare saved reports before and after an edit. Retain metrics, artifact hashes, commands and logs.
-- Use the CLI, pre-commit hook, or reproducibility skill for coding agents.
+### Machine Learning & NLP Applications
 
-`Python` `ML reproducibility` `AST` `pre-commit`
+- **[Emotube — Sentiment Analysis Platform](https://github.com/00200200/youtube-comment-sentiment-analyzer)**  
+  Full-stack web application for real-time sentiment analysis and opinion mining across YouTube comment threads. Features interactive charting, automated categorization, and sentiment aggregation.  
+  `FastAPI` `React` `PostgreSQL` `Hugging Face Transformers`
 
-[Quick demo — no ML dependencies](https://github.com/00200200/repro-lens/tree/main/examples/agent_review) · [XGBoost training example — CPU](https://github.com/00200200/repro-lens/tree/main/examples/xgboost_review) · [Quickstart](https://github.com/00200200/repro-lens/blob/main/docs/quickstart.md)
+- **[Adaptive k for Dynamic Classifier Selection](https://github.com/00200200/complexity_adaptive_k_dynamic_classifier_selection)**  
+  Empirical research studying the relationship between dataset complexity metrics and neighborhood size ($k$) in dynamic ensemble selection.  
+  `scikit-learn` `DESlib` `Data Science`
 
-The XGBoost example trains on a small synthetic dataset, accepts a refactor that preserves outputs, and reports changed outputs after reducing tree depth.
+- **[Local RAG + Reranker](https://github.com/00200200/ollama-rag-reranker)**  
+  Lightweight retrieval-augmented generation CLI running fully locally. Uses Ollama embeddings with HNSW indexing and optional FlagEmbedding cross-encoder reranking.  
+  `Python` `Ollama` `HNSW` `Vector Search`
 
-### [Ollama RAG + Reranker](https://github.com/00200200/ollama-rag-reranker)
+- **[T5 Text Summarizer](https://github.com/00200200/t5-text-summarization-cnn-dailymail)**  
+  Abstractive text summarization fine-tuning T5-small on CNN/DailyMail and XSum datasets with ROUGE metrics evaluation and Gradio interface.  
+  `Transformers` `PyTorch` `Gradio`
 
-Local retrieval-augmented generation with Ollama embeddings, HNSW vector search, and optional FlagEmbedding reranking.
-The interactive CLI lets you compare answers with and without reranking.
+---
 
-`Python` `Ollama` `HNSW` `FlagEmbedding` `uv`
+### Developer Tooling & Systems
 
-### [Maintainer Skills Lab](https://github.com/00200200/maintainer-skills-lab)
+- **[Repro Lens](https://github.com/00200200/repro-lens)**  
+  Static reproducibility checks and experiment verification for ML pipelines. Detects unseeded random generators, device non-determinism, and output drift across refactors without requiring heavy ML runtimes.  
+  `Python` `AST` `Static Analysis` `pre-commit`
 
-Shared skills, agent profiles and opt-in Git hooks for writing, debugging, PR review and releases.
-Generated versions support Codex, Claude Code, Cursor and OpenCode; Grok Bot uses manual setup.
-Start with Humanizer to edit a draft, or Skill Watch to track documentation changes and identify instructions needing review.
+- **[UsageTrim](https://github.com/00200200/usagetrim)**  
+  Local CLI and MCP tool for compacting verbose test runners (pytest, cargo, go test) and build logs into clean, noise-reduced outputs while preserving all failures and assertions verbatim.  
+  `Python` `CLI` `MCP`
 
-`Python` `Markdown` `Skills` `Git hooks`
-
-[Humanizer skill](https://github.com/00200200/maintainer-skills-lab/blob/main/skills/mkl-humanize/SKILL.md) · [Browse the workflows](https://github.com/00200200/maintainer-skills-lab/blob/main/providers/README.md) · [Skill Watch demo](https://github.com/00200200/maintainer-skills-lab/tree/main/examples/skill-watch)
-
-## More ML projects
-
-- **[Video Waste Dumping Detection](https://github.com/00200200/Video-Waste-Dumping-Detection---IWDD)** — Video classification for the IWDD contest, with VideoMAE and X-CLIP training configurations. `PyTorch` `Lightning`
-
-- **[Sudoku Solver](https://github.com/00200200/sudoku-solver-computer-vision-cnn)** — Grid extraction, digit recognition, and backtracking to solve Sudoku from images. `PyTorch` `OpenCV`
-
-- **[Adaptive k for Classifier Selection](https://github.com/00200200/complexity_adaptive_k_dynamic_classifier_selection)** — How dataset complexity relates to neighborhood size in dynamic classifier selection. `scikit-learn` `DESlib`
-
-- **[GANs from Scratch](https://github.com/00200200/gan-architectures-from-scratch-pytorch)** — Vanilla GAN, DCGAN, and Conditional GAN on MNIST, CIFAR-10, and Fashion-MNIST. `PyTorch Lightning` `Hydra`
-
-- **[T5 Text Summarizer](https://github.com/00200200/t5-text-summarization-cnn-dailymail)** — T5-small fine-tuning on CNN/DailyMail and XSum, with ROUGE evaluation and a demo UI. `Transformers` `Gradio`
-
-- **[Emotube](https://github.com/00200200/youtube-comment-sentiment-analyzer)** — YouTube comment sentiment analysis with filtering and interactive charts. `FastAPI` `React` `PostgreSQL`
-
-<details>
-<summary>Project screenshots and sample outputs</summary>
-
-#### Ollama RAG: interactive CLI
-
-<img src="https://raw.githubusercontent.com/00200200/ollama-rag-reranker/master/assets/cli.png" alt="Ollama RAG terminal menu with question, retrieval, and reranking options" width="342" />
-
-#### Sudoku: solved puzzle
-
-<img src="https://raw.githubusercontent.com/00200200/sudoku-solver-computer-vision-cnn/main/results/pipeline_outputs/20250605_113638_solved.jpg" alt="Detected Sudoku grid with the computed solution overlaid" width="640" />
-
-#### DCGAN: generated CIFAR-10 samples
-
-<img src="https://raw.githubusercontent.com/00200200/gan-architectures-from-scratch-pytorch/main/results/dcgan/epoch_90.png" alt="Grid of CIFAR-10 samples generated by DCGAN at epoch 90" width="274" />
-
-#### T5: summarization interface
-
-<img src="https://raw.githubusercontent.com/00200200/t5-text-summarization-cnn-dailymail/main/docs/app_gui.png" alt="Gradio interface for comparing T5 text summaries" width="640" />
-
-#### Emotube: application home page
-
-<img src="https://raw.githubusercontent.com/00200200/youtube-comment-sentiment-analyzer/main/readme_photos/ui_home.png" alt="Emotube home page for starting YouTube comment analysis" width="640" />
-
-</details>
+- **[Maintainer Skills Lab](https://github.com/00200200/maintainer-skills-lab)**  
+  Shared engineering utilities, AST analyzers, and diagnostic tools for automated code verification and pull request triage.  
+  `Python` `AST` `Developer Tooling`
