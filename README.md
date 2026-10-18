@@ -3,32 +3,32 @@
 Software engineer and machine learning practitioner.  
 Focused on computer vision, applied ML, developer tooling, and open-source systems across Python, PyTorch, Go, and Rust.
 
-[All Repositories](https://github.com/00200200?tab=repositories)
+[Original projects](https://github.com/00200200?tab=repositories&type=source) · [Merged contributions](https://github.com/pulls?q=is%3Apr+author%3A00200200+is%3Amerged+-user%3A00200200)
 
 ---
 
 ## Merged Open Source Contributions
 
-A selection of merged pull requests across core open-source infrastructure:
+A selection of my pull requests merged upstream:
 
 | Project | Ecosystem | Summary | Pull Request |
 | :--- | :--- | :--- | :--- |
 | **PyCQA / isort** | Python | Respect extension filters for explicit files with `--filter-files` | [#2720](https://github.com/PyCQA/isort/pull/2720) |
-| **DuckDB** | Python / C++ | Honor `overwrite=False` for existing Parquet and CSV relations | [#668](https://github.com/duckdb/duckdb-python/pull/668) |
 | **urllib3** | Python | Ensure Memray plugin availability before configuring pytest options | [#5307](https://github.com/urllib3/urllib3/pull/5307) |
 | **serde_json** | Rust | Report invalid UTF-8 at the first bad byte rather than string end | [#1345](https://github.com/serde-rs/json/pull/1345) |
 | **AnyIO** | Python | Skip empty object-stream messages when receiving buffered bytes | [#1409](https://github.com/agronholm/anyio/pull/1409) |
 | **redis-py** | Python | Preserve zero-valued `GEOSEARCH` arguments instead of dropping them | [#4356](https://github.com/redis/redis-py/pull/4356) |
 | **Fiber** | Go | Let empty optional route parameters yield to later required segments | [#4722](https://github.com/gofiber/fiber/pull/4722) |
-| **narwhals** | Python | Preserve metadata across Arrow table conversions | [#2790](https://github.com/narwhals-dev/narwhals/pull/2790) |
-| **pytest-httpserver** | Python | Preserve headers on mock server responses | [#411](https://github.com/csernazs/pytest-httpserver/pull/411) |
-| **chardet** | Python | Handle edge cases in character set detection | [#305](https://github.com/chardet/chardet/pull/305) |
-| **afero** | Go | Fix filesystem abstraction handling | [#428](https://github.com/spf13/afero/pull/428) |
+| **narwhals** | Python | Avoid trailing separators in `concat_str` when ignoring nulls | [#3967](https://github.com/narwhals-dev/narwhals/pull/3967) |
+| **pytest-httpserver** | Python | Add an opt-in case-insensitive header value matcher | [#524](https://github.com/csernazs/pytest-httpserver/pull/524) |
+| **chardet** | Python | Respect encoding filters when applying preferred supersets | [#393](https://github.com/chardet/chardet/pull/393) |
 | **set-cookie-parser** | JavaScript | Ignore invalid `Expires` attributes to retain valid expiry dates (v3.1.4) | [#91](https://github.com/nfriedly/set-cookie-parser/pull/91) |
+
+My DuckDB fix for `overwrite=False` was submitted in [#642](https://github.com/duckdb/duckdb-python/pull/642) and incorporated by a maintainer in the merged [#668](https://github.com/duckdb/duckdb-python/pull/668).
 
 ---
 
-## Projects
+## Selected Projects
 
 ### Computer Vision & Deep Learning
 
@@ -73,9 +73,9 @@ A selection of merged pull requests across core open-source infrastructure:
   `Python` `AST` `Static Analysis` `pre-commit`
 
 - **[UsageTrim](https://github.com/00200200/usagetrim)**  
-  Local CLI and MCP tool for compacting verbose test runners (pytest, cargo, go test) and build logs into clean, noise-reduced outputs while preserving all failures and assertions verbatim.  
+  Local CLI and MCP tool for compacting verbose test and build output, with full output recoverable by reference.<br>
   `Python` `CLI` `MCP`
 
 - **[Maintainer Skills Lab](https://github.com/00200200/maintainer-skills-lab)**  
-  Shared engineering utilities, AST analyzers, and diagnostic tools for automated code verification and pull request triage.  
-  `Python` `AST` `Developer Tooling`
+  Maintainer workflows and agent profiles, shared from one source across Codex, Claude Code, Cursor, and other coding clients.<br>
+  `Python` `Markdown` `Developer Tooling`
