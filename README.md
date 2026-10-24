@@ -1,13 +1,12 @@
 # Michał Furgała
 
-Software engineer and machine learning practitioner.  
-Focused on computer vision, applied ML, developer tooling, and open-source systems across Python, PyTorch, Go, and Rust.
+I work on developer tools, computer vision, and applied machine learning, mainly in Python. I also contribute fixes to Python, Go, Rust, and JavaScript projects.
 
 [Original projects](https://github.com/00200200?tab=repositories&type=source) · [Merged contributions](https://github.com/pulls?q=is%3Apr+author%3A00200200+is%3Amerged+-user%3A00200200)
 
 ---
 
-## Merged Open Source Contributions
+## Open-source contributions
 
 A selection of my pull requests merged upstream:
 
@@ -28,54 +27,30 @@ My DuckDB fix for `overwrite=False` was submitted in [#642](https://github.com/d
 
 ---
 
-## Selected Projects
+## Projects
 
-### Computer Vision & Deep Learning
+### Developer tools
 
-- **[Video Waste Dumping Detection (IWDD)](https://github.com/00200200/Video-Waste-Dumping-Detection---IWDD)**  
-  Video classification pipeline developed for the international IWDD competition. Evaluates VideoMAE and X-CLIP architectures for automated surveillance and environmental monitoring.  
-  `PyTorch` `PyTorch Lightning` `OpenCV` `VideoMAE`
+- [UsageTrim](https://github.com/00200200/usagetrim): a local CLI and MCP tool that compacts test and build output while keeping the original available by reference.
+- [Maintainer Skills Lab](https://github.com/00200200/maintainer-skills-lab): shared maintainer workflows and agent profiles for coding assistants.
+- [Repro Lens](https://github.com/00200200/repro-lens): static reproducibility checks and experiment verification for ML pipelines.
 
-- **[Sudoku Solver CV Pipeline](https://github.com/00200200/sudoku-solver-computer-vision-cnn)**  
-  End-to-end vision pipeline that extracts Sudoku grids from arbitrary camera images using OpenCV perspective transforms, classifies handwritten/printed digits with a PyTorch CNN, and solves the board via constraint satisfaction.  
-  `PyTorch` `OpenCV` `CNN` `Python`
+### Computer vision
 
-- **[GAN Architectures from Scratch](https://github.com/00200200/gan-architectures-from-scratch-pytorch)**  
-  Clean implementations of Vanilla GAN, Deep Convolutional GAN (DCGAN), and Conditional GAN (cGAN) on MNIST, CIFAR-10, and Fashion-MNIST with PyTorch Lightning and Hydra configuration.  
-  `PyTorch Lightning` `Hydra` `Computer Vision`
+- [Video Waste Dumping Detection (IWDD)](https://github.com/00200200/Video-Waste-Dumping-Detection---IWDD): video classification with VideoMAE and X-CLIP for the IWDD competition.
 
----
+- [Sudoku Solver](https://github.com/00200200/sudoku-solver-computer-vision-cnn): grid extraction with OpenCV, digit recognition with a PyTorch CNN, and a backtracking solver.
 
-### Machine Learning & NLP Applications
-
-- **[Emotube — Sentiment Analysis Platform](https://github.com/00200200/youtube-comment-sentiment-analyzer)**  
-  Full-stack web application for real-time sentiment analysis and opinion mining across YouTube comment threads. Features interactive charting, automated categorization, and sentiment aggregation.  
-  `FastAPI` `React` `PostgreSQL` `Hugging Face Transformers`
-
-- **[Adaptive k for Dynamic Classifier Selection](https://github.com/00200200/complexity_adaptive_k_dynamic_classifier_selection)**  
-  Empirical research studying the relationship between dataset complexity metrics and neighborhood size ($k$) in dynamic ensemble selection.  
-  `scikit-learn` `DESlib` `Data Science`
-
-- **[Local RAG + Reranker](https://github.com/00200200/ollama-rag-reranker)**  
-  Lightweight retrieval-augmented generation CLI running fully locally. Uses Ollama embeddings with HNSW indexing and optional FlagEmbedding cross-encoder reranking.  
-  `Python` `Ollama` `HNSW` `Vector Search`
-
-- **[T5 Text Summarizer](https://github.com/00200200/t5-text-summarization-cnn-dailymail)**  
-  Abstractive text summarization fine-tuning T5-small on CNN/DailyMail and XSum datasets with ROUGE metrics evaluation and Gradio interface.  
-  `Transformers` `PyTorch` `Gradio`
+- [GAN Architectures from Scratch](https://github.com/00200200/gan-architectures-from-scratch-pytorch): Vanilla GAN, DCGAN, and conditional GAN implementations using PyTorch Lightning and Hydra.
 
 ---
 
-### Developer Tooling & Systems
+### Machine learning and NLP
 
-- **[Repro Lens](https://github.com/00200200/repro-lens)**  
-  Static reproducibility checks and experiment verification for ML pipelines. Detects unseeded random generators, device non-determinism, and output drift across refactors without requiring heavy ML runtimes.  
-  `Python` `AST` `Static Analysis` `pre-commit`
+- [YouTube Comment Sentiment Analyzer](https://github.com/00200200/youtube-comment-sentiment-analyzer): a FastAPI and React app for analyzing comment sentiment with Hugging Face models.
 
-- **[UsageTrim](https://github.com/00200200/usagetrim)**  
-  Local CLI and MCP tool for compacting verbose test and build output, with full output recoverable by reference.<br>
-  `Python` `CLI` `MCP`
+- [Adaptive k for Dynamic Classifier Selection](https://github.com/00200200/complexity_adaptive_k_dynamic_classifier_selection): experiments on dataset complexity and neighborhood size in dynamic classifier selection.
 
-- **[Maintainer Skills Lab](https://github.com/00200200/maintainer-skills-lab)**  
-  Maintainer workflows and agent profiles, shared from one source across Codex, Claude Code, Cursor, and other coding clients.<br>
-  `Python` `Markdown` `Developer Tooling`
+- [Local RAG + Reranker](https://github.com/00200200/ollama-rag-reranker): a retrieval CLI using Ollama embeddings, HNSW indexing, and optional cross-encoder reranking.
+
+- [T5 Text Summarizer](https://github.com/00200200/t5-text-summarization-cnn-dailymail): T5-small fine-tuning on CNN/DailyMail and XSum, with ROUGE evaluation and a Gradio interface.
