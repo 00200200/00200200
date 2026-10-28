@@ -35,7 +35,7 @@ My DuckDB fix for `overwrite=False` was submitted in [#642](https://github.com/d
 
 ### Developer tools
 
-- [UsageTrim](https://github.com/00200200/usagetrim): a local CLI and MCP tool that compacts test and build output while keeping the original available by reference.
+- [UsageTrim](https://github.com/00200200/usagetrim): a local CLI and MCP tool that compacts test and build output, with cached text retrievable after recognized secrets are redacted.
 - [Maintainer Skills Lab](https://github.com/00200200/maintainer-skills-lab): shared maintainer workflows and agent profiles for coding assistants.
 - [Repro Lens](https://github.com/00200200/repro-lens): static reproducibility checks and experiment verification for ML pipelines.
 
