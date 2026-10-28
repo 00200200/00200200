@@ -1,6 +1,10 @@
 # Michał Furgała
 
-I work on developer tools, computer vision, and applied machine learning, mainly in Python. I also contribute fixes to Python, Go, Rust, and JavaScript projects.
+I hold a BEng in Computer Engineering from Wrocław University of Science and Technology.
+
+My research interests are counterfactual explanations, concept-based models, generative models, and LLM interpretability. I am a member of the ML team at Solvro, a student research club at Wrocław University of Science and Technology.
+
+Here you'll find my ML experiments, developer tools, and contributions to Python, Go, Rust, and JavaScript projects.
 
 [Original projects](https://github.com/00200200?tab=repositories&type=source) · [Merged contributions](https://github.com/pulls?q=is%3Apr+author%3A00200200+is%3Amerged+-user%3A00200200)
 
@@ -21,7 +25,7 @@ A selection of my pull requests merged upstream:
 | **narwhals** | Python | Avoid trailing separators in `concat_str` when ignoring nulls | [#3967](https://github.com/narwhals-dev/narwhals/pull/3967) |
 | **pytest-httpserver** | Python | Add an opt-in case-insensitive header value matcher | [#524](https://github.com/csernazs/pytest-httpserver/pull/524) |
 | **chardet** | Python | Respect encoding filters when applying preferred supersets | [#393](https://github.com/chardet/chardet/pull/393) |
-| **set-cookie-parser** | JavaScript | Ignore invalid `Expires` attributes to retain valid expiry dates (v3.1.4) | [#91](https://github.com/nfriedly/set-cookie-parser/pull/91) |
+| **set-cookie-parser** | JavaScript | Ignore invalid `Expires` attributes to retain valid expiry dates | [#91](https://github.com/nfriedly/set-cookie-parser/pull/91) |
 
 My DuckDB fix for `overwrite=False` was submitted in [#642](https://github.com/duckdb/duckdb-python/pull/642) and incorporated by a maintainer in the merged [#668](https://github.com/duckdb/duckdb-python/pull/668).
 
