@@ -1,12 +1,3 @@
-# Michał Furgała
-
-I hold a BEng in Computer Engineering from Wrocław University of Science and Technology.
-
-My research interests are counterfactual explanations, concept-based models, generative models, and LLM interpretability. I am a member of the ML team at Solvro, a student research club at Wrocław University of Science and Technology.
-
-Here you'll find my ML experiments, developer tools, and contributions to Python, Go, Rust, and JavaScript projects.
-
-[Original projects](https://github.com/00200200?tab=repositories&type=source) · [Merged contributions](https://github.com/pulls?q=is%3Apr+author%3A00200200+is%3Amerged+-user%3A00200200)
 
 ---
 
