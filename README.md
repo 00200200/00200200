@@ -1,24 +1,18 @@
 
 ---
 
-## Open-source contributions
+## AI/ML open-source contributions
 
-A selection of my pull requests merged upstream:
+Selected pull requests merged upstream in LLM and AI-agent projects:
 
-| Project | Ecosystem | Summary | Pull Request |
+| Project | Area | Summary | Pull Request |
 | :--- | :--- | :--- | :--- |
-| **PyCQA / isort** | Python | Respect extension filters for explicit files with `--filter-files` | [#2720](https://github.com/PyCQA/isort/pull/2720) |
-| **urllib3** | Python | Ensure Memray plugin availability before configuring pytest options | [#5307](https://github.com/urllib3/urllib3/pull/5307) |
-| **serde_json** | Rust | Report invalid UTF-8 at the first bad byte rather than string end | [#1345](https://github.com/serde-rs/json/pull/1345) |
-| **AnyIO** | Python | Skip empty object-stream messages when receiving buffered bytes | [#1409](https://github.com/agronholm/anyio/pull/1409) |
-| **redis-py** | Python | Preserve zero-valued `GEOSEARCH` arguments instead of dropping them | [#4356](https://github.com/redis/redis-py/pull/4356) |
-| **Fiber** | Go | Let empty optional route parameters yield to later required segments | [#4722](https://github.com/gofiber/fiber/pull/4722) |
-| **narwhals** | Python | Avoid trailing separators in `concat_str` when ignoring nulls | [#3967](https://github.com/narwhals-dev/narwhals/pull/3967) |
-| **pytest-httpserver** | Python | Add an opt-in case-insensitive header value matcher | [#524](https://github.com/csernazs/pytest-httpserver/pull/524) |
-| **chardet** | Python | Respect encoding filters when applying preferred supersets | [#393](https://github.com/chardet/chardet/pull/393) |
-| **set-cookie-parser** | JavaScript | Ignore invalid `Expires` attributes to retain valid expiry dates | [#91](https://github.com/nfriedly/set-cookie-parser/pull/91) |
-
-My DuckDB fix for `overwrite=False` was submitted in [#642](https://github.com/duckdb/duckdb-python/pull/642) and incorporated by a maintainer in the merged [#668](https://github.com/duckdb/duckdb-python/pull/668).
+| **OpenAI / Agents SDK** | AI agents | Fix concurrent SQLite session startup failures | [#4987](https://github.com/openai/openai-agents-python/pull/4987) |
+| **Mozilla AI / any-llm** | Local LLM inference | Move vLLM, llama.cpp, and Cascadia providers into the registry and fix API-key handling | [#1421](https://github.com/mozilla-ai/any-llm/pull/1421) |
+| **Mozilla AI / any-llm** | LLM provider integration | Support providers with optional API keys | [#1416](https://github.com/mozilla-ai/any-llm/pull/1416) |
+| **Mozilla AI / any-llm** | LLM provider integration | Expose native Anthropic Messages API support in provider metadata | [#1422](https://github.com/mozilla-ai/any-llm/pull/1422) |
+| **Mozilla AI / any-llm** | AI agent tools | Accept Anthropic container objects for Skills | [#1411](https://github.com/mozilla-ai/any-llm/pull/1411) |
+| **Hugging Face / relore** | AI agent project memory | Preserve explicit signal filters when expanding a search | [#82](https://github.com/huggingface/relore/pull/82) |
 
 ---
 
